@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Account</title>
+<link href="doubleLogin.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	
+	<header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li class="hoverli"><a href="#">Actors</a>
+						     <ul class="drop">
+							    <li><a href="index.html#WomenActors">Female Actors</a></li> 
+								<li><a href="index.html#ManActors">Male Actors</a></li> 
+							</ul>
+						</li>
+                        <li class="hoverli"><a href="#">Models</a>
+						     <ul class="drop">
+							      <li><a href="index.html#WomenModels">Female Models</a></li>
+								  <li><a href="index.html#ManModels">Males Models</a></li>
+							</ul>
+						</li>
+                        <li><a href="index.html#aboutU">About</a> </li>
+                        <li><a href="index.html#contact">Contact</a> </li>
+                    </ul>
+                </nav>
+
+	</header>
+	
+	
+	<div class="forms">
+		  
+		 <div class="login">
+			 
+			  <a href="index.html"><img src="../images/login-rounded-right.png" width="200" height="200" alt="USer Loga" class="avatar"/></a>
+		
+			 <form action="index.html" method="post">
+			   
+              <h2>User Login</h2>
+			   
+              <p><span>User Name :</span>
+              <input type="text" name="" value="" placeholder="UserName"></p>
+			   
+              <p><span>Password :</span>
+              <input type="password" name="" value="" placeholder="Password"></p>
+			   
+             <input type="submit" value="Login" style="color:#C5E5E0; font-size: 15px : ">
+			   
+              <p><a href="mailto: casting@example.com" target="_blank">Lost your password?</a></p> 
+              <!--<p><a href="createAcount.html">Dont have an account?</a></p>-->
+           </form>
+			 
+		</div>
+		
+		 <div class="createAcoount">
+			  <a href="index.html"><img src="../images/kdmczm.png" width="150" height="150" alt="USer Loga" class="avatar2"/></a>
+		
+			 <form action="#" method="post">
+			   
+              <h2> Create an Account</h2>
+			   
+				 <p class="textGenel">User Name :  
+				  
+					  <span>
+                        <input type="text" name="" value="" placeholder="UserName" >
+				     </span>
+				 </p>
+				 
+				
+			  
+				 <p class="textGenel">Name :
+				 
+					  <span>
+                         <input type="text" name="" value="" placeholder="Name" >
+				      </span>
+				 </p>
+					 
+			 
+			   <p class="textGenel">Email  :
+				 
+					  <span>
+                        <input type="email" name="" value="" placeholder="Email" >
+				      </span> 
+			   </p>
+				
+				
+			  
+              
+				 <p class="textGenel">Password :
+				 
+					 <span>
+             
+				       <input type="password" name="" value="" placeholder="Password">
+				 
+				   </span>
+				 </p>
+				 
+				 
+				 <p class="textGenel">Tel:
+				 
+				     <span>
+					    <input type="tel" placeholder="0(5XX)"  />
+				 
+				     </span>
+				 </p>
+				 
+				 
+				 
+				 <p class="textGenel">BirthDate:
+				 
+					 <span>
+					    <input type="date" >
+				     </span>
+				 </p>
+				 
+				 
+				 <p class="textGenel"> Weight:
+				 
+				     <span>
+					    <input type="number" placeholder="Weight">
+				     </span>
+				 </p>
+				 
+				 
+				 
+				 <p class="textGenel">  Height: 
+				 
+				 <span><input type="number" placeholder="Height"> </span>
+					 
+				 </p>
+				 
+				 
+				
+			    
+				 
+				 
+				 
+				
+				
+				 
+				 
+				 <!--<p>
+				 
+					 <span> Actors:
+					    <input type="checkbox"   name="Actors" id="actors"/><span>-or-</span>
+				     </span>
+				 
+				 
+					  <span>Models:
+					    <input type="checkbox"   name="Models" id="models"/>
+				      </span>
+				 
+				 </p>-->
+				 
+				<div class="textGenel">
+				 <p class="files " >   <label for="myfile">Your Picture:</label>
+				 <span>
+					 <button class="btnfile" ><span class="btntext">Select Picture</span></button>
+					 <input type="file" value="Picture" >
+				 </span>
+				     
+				 </p>
+				 
+				 </div>
+				
+				 
+				 
+				 
+				 <p class="selectp">Country :
+				 
+			      <span>
+                  <select id="country" name="country">
+                    <option value="Turkish">Turkish</option>
+                    <option value="England">England</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  </span> 
+				   
+			   </p>
+				 
+				 
+				  <p class="radiotext">
+					  
+							 
+		
+						 <label class="genderRadio">	 Female: <input type="radio" value="1" name="gender" id="Female"/></label>  
+				 
+					
+				 
+				   
+						<label class="genderRadio"> Male:
+					   
+					    <input type="radio" value="0" name="gender" id="Male"/></label>
+					
+				 
+			 
+			         
+				 </p>
+				 
+				 <p class="aboutme">About Me:
+		           <span>
+					 <textarea placeholder="About me?"></textarea>
+				 </span>
+				
+				 </p>
+				 <div style="clear:both;"></div>
+				 <div class="senddiv">
+				 <input type="reset" style="color:#C5E5E0; font-size: 15px : " /> 
+               <input type="submit" value="Registered" style="color:#C5E5E0; font-size: 15px : " >
+			   </div>
+              
+           </form>
+		</div>
+	
+	
+	</div>
+	
+	 <footer class="footer"> ©  Made by Ece, Muhammet, Arda, Eylül and Egemen all rights reserved
+cannot be copied.</footer>
+	
+	
+</body>
+</html>
